@@ -46,15 +46,6 @@ Submission to KUET bitfest Hackathon 2025 by Team Escalator.
   }
   ```
 
-- Route: /confirm  
-  Method: POST  
-  Sample Payload:  
-  ```json
-  {
-    "token": "securepassword"
-  }
-  ``` 
-
 - Route: /signup  
   Method: POST  
   Sample Payload:  
