@@ -5,6 +5,12 @@ Submission to KUET bitfest Hackathon 2025 by Team Escalator.
 
 - Route: /ingredients/:UserID  
   Method: GET  
+  Headers:
+```json
+{
+  "Authorization": "Bearer <token>"
+}
+```   
   Sample Response:  
   ```json
   [
@@ -28,14 +34,19 @@ Submission to KUET bitfest Hackathon 2025 by Team Escalator.
 
 
 - Route: /ingredients/add  
-  Method: POST  
+  Method: POST
+    Headers:
+```json
+{
+  "Authorization": "Bearer <token>"
+}
+```   
   Sample Payload:  
   ```json
   {
     "name": "Sugar",
     "quantity": 1.5,
     "unit": "kg",
-    "token": "dsfsf"
   }
   ```  
   Sample Response:  
@@ -77,14 +88,20 @@ Submission to KUET bitfest Hackathon 2025 by Team Escalator.
   ```json
   {
     "message": "Login successful",
-    "token": "abcdef123456"
+    "token": "jwt_auth_token"
   }
   ```
 
 
 
 - Route: /recipes/:UserID  
-  Method: GET  
+  Method: GET
+    Headers:
+```json
+{
+  "Authorization": "Bearer <token>"
+}
+```   
   Sample Response:  
   ```json
   [
@@ -121,12 +138,17 @@ Submission to KUET bitfest Hackathon 2025 by Team Escalator.
 
 
 - Route: /recipes/add  
-  Method: POST  
+  Method: POST
+    Headers:
+```json
+{
+  "Authorization": "Bearer <token>"
+}
+```   
   Sample Payload:  
   ```json
   {
     "text" : "recipes text",
-    "token": "dsfsf"
   }
   ```  
   Sample Response:  
@@ -140,7 +162,13 @@ Submission to KUET bitfest Hackathon 2025 by Team Escalator.
 
 
 - Route: /recipes/daily/:UserID  
-  Method: GET  
+  Method: GET
+    Headers:
+```json
+{
+  "Authorization": "Bearer <token>"
+}
+```   
   Sample Response:
   ```json
   {
