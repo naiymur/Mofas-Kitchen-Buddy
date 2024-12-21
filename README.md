@@ -5,7 +5,7 @@ Submission to KUET bitfest Hackathon 2025 by Team Escalator.
 
 - Route: /ingredients/:UserID  
   Method: GET  
-  Headers:
+  Headers:  
 ```json
 {
   "Authorization": "Bearer <token>"
@@ -34,8 +34,8 @@ Submission to KUET bitfest Hackathon 2025 by Team Escalator.
 
 
 - Route: /ingredients/add  
-  Method: POST
-    Headers:
+  Method: POST  
+    Headers:  
 ```json
 {
   "Authorization": "Bearer <token>"
@@ -95,7 +95,7 @@ Submission to KUET bitfest Hackathon 2025 by Team Escalator.
 
 
 - Route: /recipes/:UserID  
-  Method: GET
+  Method: GET  
     Headers:
 ```json
 {
@@ -138,8 +138,8 @@ Submission to KUET bitfest Hackathon 2025 by Team Escalator.
 
 
 - Route: /recipes/add  
-  Method: POST
-    Headers:
+  Method: POST  
+  Headers:  
 ```json
 {
   "Authorization": "Bearer <token>"
@@ -162,8 +162,8 @@ Submission to KUET bitfest Hackathon 2025 by Team Escalator.
 
 
 - Route: /recipes/daily/:UserID  
-  Method: GET
-    Headers:
+  Method: GET  
+  Headers:  
 ```json
 {
   "Authorization": "Bearer <token>"
